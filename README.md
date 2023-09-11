@@ -35,19 +35,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
+<h4> 1. Create a virtual machine in Azure </h4>
+  
+- Make sure to use a Virtual Machine (VM) with at least 4vcpus to ensure a speedy installation process. Once your VM has been deployed connect to it through remote desktop. 
+</p>
+<p>
 <img width="459" alt="VM Creation 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/09a34b0e-9f45-47d8-bb99-db4ce9d8e2c0">
 
 </p>
-<p>
-Create a virtual machine in Azure under your subscription, make sure to use a Virtual Machine (VM) with at least 4vcpus to ensure a speedy installation process. Once your VM has been deployed connect to it through remote desktop. 
-</p>
+
 <br />
-
-<p>
-<img width="960" alt="Install IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/3546182c-c12a-4746-ae8f-e6897ff0c3e4">
-</p>
-
-<h5> On your VM install IIS through the following steps: </h5>
+<h4> 2. On your VM install IIS through the following steps: </h4>
 
 - Navigate to the Control Panel - > Programs - > Turn Windows Features On or Off
 - Select Internet Information Services
@@ -56,16 +54,28 @@ Create a virtual machine in Azure under your subscription, make sure to use a Vi
 - Select Common HTTP Features
 - Press OK
 
+<img width="960" alt="Install IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/3546182c-c12a-4746-ae8f-e6897ff0c3e4">
+</p>
 - Navigate to Internet explorer and type in 127.0.0.1 to ensure that the IIS has been properly installed. You should arrive at the following image which will indicate success
+<br />
 
+<img width="400" alt="Success IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e7c7ee85-1597-4b49-a79b-b7d26e48ee1d">
 
-
-
+<br />
 
 
 <p>
-Select 
+
 </p>
+<h4> 3. Download and Install PHP Manager for IIS and ReWrite Module </h4>
+
+- Download and Install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- Download and Install Rewrite Module (rewrite_amd64_en-US.msi)
+- Create a Folder in the C Drive called PHP
+- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into the PHP folder that was created in the C Drive
+  
+
+
 <br />
 
 <p>
