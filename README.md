@@ -113,8 +113,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Click on PHP Manager
 - Click on Register New PHP version
 - Navigate to the PHP folder in the C drive and click on the php cgi executable
-- Refresh Server
+- Restart osTicket Server
+- Minimize IIS Manager
+
+
+<img width="1375" alt="PHP manager set up in IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/d8f94b3d-2e33-437d-928d-5ee1e735dc20">
+<img width="500" alt="Restart Server" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/a7840ef0-8883-4a74-b23a-1ee6f2d9e342">
 
 
 </p>
 <br />
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+<h3> 6. Install osTicket v1.15.8 </h3>
+
+- Install and Download osTicket  v1.15.8
+- Extract and copy “upload” folder to c:\inetpub\wwwroot
+- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+- Reload osTicket Server in IIS Manager
+
+
+
