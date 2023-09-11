@@ -33,7 +33,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Cleanup osTicket file setup
 
 <h2>Installation Steps</h2>
-![image](https://github.com/s-evelyn/osticket-prereq/assets/53543374/696b2938-741e-40da-9d5e-e31f5979d0df)
 
 <p>
 <img width="459" alt="VM Creation 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/00e0ee5e-93b2-491d-9a99-4d6bf0b15c01">
