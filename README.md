@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/s-evelyn/osticket-prereq/assets/53543374/696b2938-741e-40da-9d5e-e31f5979d0df)
 
 <p>
-<img src="[[https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps](https://imgur.com/a/NJnFXfs)](https://i.imgur.com/XdQYrXJ.png)"/>
+<img width="456" alt="VM Creation" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/8cc64e69-2562-402b-b324-880c9e4c77f9">
 </p>
 <p>
 Create a virtual machine in Azure under your subscription, make sure to you a Virtual Machine with at least 2vcpus to ensure a speedy installation process.
