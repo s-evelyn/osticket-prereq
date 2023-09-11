@@ -44,15 +44,24 @@ Create a virtual machine in Azure under your subscription, make sure to use a Vi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="960" alt="Install IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/3546182c-c12a-4746-ae8f-e6897ff0c3e4">
 </p>
-<p>
-On your VM install IIS through the following steps:
-<p>
+
+<h5> On your VM install IIS through the following steps: </h5>
+
 - Navigate to the Control Panel - > Programs - > Turn Windows Features On or Off
 - Select Internet Information Services
-  
-</p>
+- Select Web Management tools -> IIS Management Console
+- Select World Wide Web Service - > Application Development Features -> CGI
+- Select Common HTTP Features
+- Press OK
+
+- Navigate to Internet explorer and type in 127.0.0.1 to ensure that the IIS has been properly installed. You should arrive at the following image which will indicate success
+
+
+
+
+
 
 <p>
 Select 
