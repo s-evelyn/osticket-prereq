@@ -56,7 +56,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="960" alt="Install IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/3546182c-c12a-4746-ae8f-e6897ff0c3e4">
 </p>
+
 - Navigate to Internet explorer and type in 127.0.0.1 to ensure that the IIS has been properly installed. You should arrive at the following image which will indicate success
+  
 <br />
 
 <img width="400" alt="Success IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e7c7ee85-1597-4b49-a79b-b7d26e48ee1d">
@@ -74,10 +76,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a Folder in the C Drive called PHP
 - Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into the PHP folder that was created in the C Drive
   
-
+  <img width="1307" alt="Install PHP rewrite etc" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/23084dd5-3c47-42a6-99d1-d0f327621dfc">
+  
 
 <br />
 
+<h4> 4. Download and Install Microsoft Visual C++ and MYSQL 5.5.62 </h4>
+
+- Download and Install Microsoft Visual C++ VC_redist.x86.exe
+- Download and Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+  
+   - Typical Setup - >
+   - Launch MYSQL Instance Configuration Wizard (after install) - >
+   - Standard Configuration - >
+   - Password1 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
