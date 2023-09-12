@@ -150,6 +150,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - php_opcache.dll
 - Refresh the osTicket site in your browse, observe the changes
 
-
+<img width="1742" alt="Necessary extensions" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/131dda5d-8342-440e-95a0-de1471530563">
+<img width="500" alt="refresh browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9c79cf7e-2fb6-4368-8000-30a07f2909d4">
 
 
