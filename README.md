@@ -60,7 +60,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="960" alt="Install IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/3546182c-c12a-4746-ae8f-e6897ff0c3e4">
 </p>
 
-- Navigate to Internet explorer and type in 127.0.0.1 to ensure that the IIS has been properly installed. You should arrive at the following image which will indicate success
+- Navigate to Micrsoft Edge and type in 127.0.0.1 (loopback address)to ensure that the IIS has been properly installed. You should arrive at the following image which will indicate success
   
 <br />
 
