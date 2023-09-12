@@ -140,6 +140,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3> 7. Navigate to osTicket Browser and enable necessary extensions </h3>
 
+- In IIS Manager navigate Sites -> Default Website -> Click on “Browse *:80”
+- Note that not all the extensions are not activated
+- Go back to IIS, sites -> Default -> osTicket
+- Double-click PHP Manager
+    - Enable the following extensions:
+    - php_imap.dll
+    - php_intl.dll
+    - php_opcache.dll
+- Refresh the osTicket site in your browse, observe the changes
+
 
 
 
