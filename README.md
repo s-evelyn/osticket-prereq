@@ -174,11 +174,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  <br />
 
  
-<h3> 9. Rename ost-config and assign permissions </h3>
+<h3> 9. Setup osTicket in Browser </h3>
 
-Continue Setting up osTicket in the browser
-
-- 
+- Continue Setting up osTicket in the browser
+- Fill in the Helpdesk username and Admin User information
+  
 
 
 
