@@ -155,6 +155,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 <h3> 8. Rename ost-config and assign permissions </h3>
 
 - Rename ost-config
@@ -173,7 +175,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
  <br />
 
- 
+ ------------------------------------------------------------------------------------------------------------------------------------------------
+
 <h3> 9. Setup osTicket in Browser </h3>
 
 - Continue Setting up osTicket in the browser
@@ -183,12 +186,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Download and Install Heidi SQL
 <img width="899" alt="Heidi SQL Download and Install" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/1c09f2ca-353e-4302-8f43-e6925f40fdd2">
+
 <br />
+
 - Create a New Session, with the user as root, and the password as Password 1
 - Create a new database, called osTicket
   
 <img width="888" alt="HeidiSQL Database setup" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/d9c75b3c-a6d1-42b3-a5cc-0241e88bb29e">
+
 <br />
+
 - Toggle back to the osTicket browser and enter the following
     - MySQL Database: osTicket
     - MySQL Username: root
@@ -206,9 +213,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 <h3>10. Clean Up</h3>
 
 - Delete: C:\inetpub\wwwroot\osTicket\setup
+
+  <img width="597" alt="Delete set up clean up" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/149290e6-f32d-4f0e-9062-b5c83be3670e">
+
+  <br />
+  
 - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+<img width="272" alt="Permissions os-config read only" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9d74bfcb-4907-4a1d-be4e-8e574aa2d538">
+
+<br />
+
+<h3>Congratulations you have successfully installed osTicket in your Virtual Machine, Find the link to the Post Intallation Tutorial below </h3>
 
 
