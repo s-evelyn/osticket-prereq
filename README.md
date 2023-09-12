@@ -179,7 +179,36 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Continue Setting up osTicket in the browser
 - Fill in the Helpdesk username and Admin User information
   
+<img width="692" alt="Basic Info fill in osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/2bf44fa6-2205-412d-adee-96000a42786e">
 
+- Download and Install Heidi SQL
+<img width="899" alt="Heidi SQL Download and Install" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/1c09f2ca-353e-4302-8f43-e6925f40fdd2">
+<br />
+- Create a New Session, with the user as root, and the password as Password 1
+- Create a new database, called osTicket
+  
+<img width="888" alt="HeidiSQL Database setup" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/d9c75b3c-a6d1-42b3-a5cc-0241e88bb29e">
+<br />
+- Toggle back to the osTicket browser and enter the following
+    - MySQL Database: osTicket
+    - MySQL Username: root
+    - MySQL Password: Password1
+    - Click “Install Now!”
 
+<img width="300" alt="osTicket Congratulations" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/74a65ea9-83f4-4d3e-8b4a-fb218a79bf17">
+
+ <br />
+ 
+- Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+- Login with your Admin users information
+
+<img width="500" alt="Login at local host success" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/75f9b60c-5d7e-4f69-bdd9-26ef54d9f43d">
+
+<br />
+
+<h3>10. Clean Up</h3>
+
+- Delete: C:\inetpub\wwwroot\osTicket\setup
+- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 
