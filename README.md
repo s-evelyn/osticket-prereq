@@ -153,4 +153,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1742" alt="Necessary extensions" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/131dda5d-8342-440e-95a0-de1471530563">
 <img width="500" alt="refresh browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9c79cf7e-2fb6-4368-8000-30a07f2909d4">
 
+<br />
+
+<h3> 8. Rename ost-config and assign permissions </h3>
+
+- Rename ost-config
+    - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+    - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+ 
+- Assign Permissions to ost-config
+    - Disable inheritance -> Remove All
+    - New Permissions -> Everyone -> All
+
+
+
+
 
