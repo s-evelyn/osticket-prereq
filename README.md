@@ -37,10 +37,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h3> 1. Create a virtual machine in Azure </h3>
   
-- Make sure to use a Virtual Machine (VM) with at least 4vcpus to ensure a speedy installation process. Once your VM has been deployed connect to it through remote desktop. 
-</p>
+- Make sure to use a Virtual Machine (VM) with at least 4vcpus to ensure a speedy installation process.
+- Once your VM has been deployed get a copy of its Public IP address and connect to it through remote desktop.
+  </p>
 <p>
-<img width="459" alt="VM Creation 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/09a34b0e-9f45-47d8-bb99-db4ce9d8e2c0">
+<img width="250" alt="VM Creation 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/09a34b0e-9f45-47d8-bb99-db4ce9d8e2c0">
 
 </p>
 
