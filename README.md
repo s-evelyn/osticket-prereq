@@ -40,17 +40,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Go to azure.portal.com and create a new virtual machine (VM). 
 - Select Windows 10 22H2 as your image and a VM size of at least 4vcpus to ensure a speedy processing.
 
-   <img width="250" alt="VM Creation 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/7f796c42-237f-4775-9390-de4da8777a00">
-
+   <img height = "30%" width="30%" alt="VM Creation 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/7f796c42-237f-4775-9390-de4da8777a00">
 
 <br />
 
-- Once your VM has been deployed get a copy of its Public IP address and connect to it through remote desktop.
+- Once your VM has been deployed get a copy of its Public IP address.
+  
+    <img align = "top" height = "30%" width="30%" alt="Get Public IP Address" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/37adf0cc-fddc-4935-b017-b4d466313858">
   </p>
-  <img align = "top" width="600" alt="Get Public IP Address" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/37adf0cc-fddc-4935-b017-b4d466313858">
+      
 
-
-  <img align = "top" width="288" alt="remote desktop" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e530e1fc-50aa-4747-8859-261eaef0741f">
+-  Connect to it through remote desktop
+  
+      <img align = "top" height = "30%" width="30%" alt="remote desktop" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e530e1fc-50aa-4747-8859-261eaef0741f">
 
 </p>
 
@@ -67,12 +69,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Select Common HTTP Features
 - Press OK
   
-  <img width="500" alt="Install IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/54ce7efe-5f1a-40a9-b4d5-bdf5a4a8c6c2">
+  <img height = "30%" width="30%" alt="Install IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/54ce7efe-5f1a-40a9-b4d5-bdf5a4a8c6c2">
 
 
 - Navigate to Micrsoft Edge and type in 127.0.0.1 (loopback address)to ensure that the IIS has been properly installed. You should arrive at the following image which will indicate success
   
-  <img width="500" alt="Success IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e7c7ee85-1597-4b49-a79b-b7d26e48ee1d">
+  <img height = "30%" width="30%" alt="Success IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e7c7ee85-1597-4b49-a79b-b7d26e48ee1d">
 
 <br />
 
@@ -86,11 +88,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download and Install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 - Download and Install Rewrite Module (rewrite_amd64_en-US.msi)
 - Create a Folder in the C Drive called PHP
+  
+    <img height = "30%" width="30%" alt="php folder" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/349f6214-90d3-4af7-a185-81a721bc34b8">
+    
 - Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into the PHP folder that was created in the C Drive
   
-  <img width="700" alt="php folder" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9fcb6bb4-0079-48fe-a375-2e62c2ac143e">
-
-  
+    <img align= "top" height = "30%" width="30%" alt="php folder extracted" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/36479e30-491f-41cf-ba0b-bde4c8f9d34f">
 
 <br />
 
@@ -98,19 +101,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Download and Install Microsoft Visual C++ VC_redist.x86.exe
 - Download and Install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-  
-   - Typical Setup - >
-   - Launch MYSQL Instance Configuration Wizard (after install) - >
+- During the setup of MySQL select the following
+   - Typical Setup 
+   - Launch MYSQL Instance Configuration Wizard (after install) 
  
-      <img width="500" alt="MYSQL Install 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/082a560a-a40e-4c90-ae6c-906c61744ece">
+      <img height = "30%" width="30%" alt="MYSQL Install 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/a550f17a-a0fc-4959-97da-d7afb31cfb6e">
+      <img height = "30%" width="30%" alt="mysql install 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/67706642-0cd2-491b-adb1-54f9f138686f">
 
 
   <br />
   
    - Standard Configuration - >
-   - Password1
+   - Install as Window Service
+   - Type in Password1
 
-      <img width="700" alt="MYSQL configuration" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/258ed77c-4b41-4773-9dd5-68dbef5f4f8c">
+      <img height = "30%" width="30%" alt="MYSQL configuration" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/d1a781df-224c-40a5-ac83-d613974d4897">
+      <img height = "30%" width="30%"  alt="mysql config 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/4fb72746-c1d0-4ed5-9462-c074c81b3be8">
+      <img height = "30%" width="30%"  alt="mysql config 3" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/419b492e-f67c-4f44-96af-ad75252222bc">
+
 
 
 <br />
@@ -121,20 +129,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   
 - Navigate to Internet Information Sevices Manager, and run as administrator
-- Click on PHP Manager
 
-    <img width="600" alt="PHP manager set up in IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/4970063c-1fa0-47c2-a211-5ebbbfd14599">
+    <img height = "30%" width="30%" alt="PHP manager set up in IIS" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/33aff5c3-9432-4cf3-9281-1b7abb691dbb">
+    
+- Click on PHP Manager
+  
+    <img align= "top" height = "30%" width="30%" alt="find php 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/c5fbb2fa-59d2-4125-a14b-72da511a8f00">
+
+    
 
 - Click on Register New PHP version
+
+    <img height = "30%" width="30%" alt="PHP register" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/bec6661d-3404-434b-b0f3-063bcb760379">
+    
 - Navigate to the PHP folder in the C drive and click on the php cgi executable
-  
-    <img width="600" alt="PHP register" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/0f3b3555-9f06-49cd-9db8-803ed84447b0">
+      
+     <img align= "top" height = "30%" width="30%" alt="php install cgi" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/fb153957-55a3-4c98-bad3-79a13e199efb">
 
     
 - Restart osTicket Server
-- Minimize IIS Manager
+  
+     <img height = "30%" width="30%" alt="Restart Server" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/a7840ef0-8883-4a74-b23a-1ee6f2d9e342">
+     
+- Minimize IIS Manager for now
 
-    <img width="500" alt="Restart Server" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/a7840ef0-8883-4a74-b23a-1ee6f2d9e342">
+   
 
 
 </p>
@@ -147,8 +166,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Extract and copy “upload” folder to c:\inetpub\wwwroot
 - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 - Reload osTicket Server in IIS Manager
+  
+    <img width="1732" alt="Install osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/c55802f4-8e6c-4727-bd2a-b86525f724fa">
 
-<img width="1140" alt="Install osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/dee0ce6a-5fc9-47ee-8443-53663c4f299a">
+
 
 <br />
 
@@ -156,17 +177,37 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3> 7. Navigate to osTicket Browser and enable necessary extensions </h3>
 
-- In IIS Manager navigate Sites -> Default Website -> Click on “Browse *:80”
-- Note that not all the extensions are not activated
+- In IIS Manager navigate Sites -> Default Website -> Click on “Browse *:80”.
+
+    <img width="481" alt="osticket browser 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/b3e6113c-1613-4252-8524-cc041ee3d4d7">
+    
+- Note that not all the extensions are activated.
+    
+    <img width="529" alt="osTicket Browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/82f2f6f1-f8bf-4c97-b28b-a09a6ff0f6cc">
+    
+
+
 - Go back to IIS, sites -> Default -> osTicket
+  
+    <img width="513" alt="Extension enable 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/413fae07-de4d-46c5-bc2c-6e9e0a0459d1">
+    
 - Double-click PHP Manager
     - Enable the following extensions:
     - php_imap.dll
     - php_intl.dll
     - php_opcache.dll
-- Refresh the osTicket site in your browse, observe the changes
+      
+        <img width="579" alt="extension enable 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e67db73e-7ed6-420e-b8a6-4d9f3e908cf0">
+        
+        <img width="595" alt="extension enable 3" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/f169414e-4440-491c-b67d-812898602e68">
+- Refresh the osTicket
+  
 
-<img width="1742" alt="Necessary extensions" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/131dda5d-8342-440e-95a0-de1471530563">
+
+site in your browse, observe the changes
+
+
+
 
 <img width="500" alt="refresh browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9c79cf7e-2fb6-4368-8000-30a07f2909d4">
 
