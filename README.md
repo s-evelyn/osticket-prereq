@@ -294,6 +294,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
-<h4>Congratulations you have successfully installed osTicket in your Virtual Machine, Continue to the Post Intallation Tutorial </h4>
+<h4>Congratulations you have successfully installed osTicket in your Virtual Machine, Continue to the [osTicket: Post-Installation Configuration Tutorial](https://github.com/s-evelyn/osTicket-PostInstallConfig) </h4>
 
 
