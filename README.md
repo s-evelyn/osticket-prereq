@@ -267,14 +267,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - MySQL Password: Password1
     - Click “Install Now!”
 
-<img height = "30%" width="30%" alt="osTicket Congratulations" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/74a65ea9-83f4-4d3e-8b4a-fb218a79bf17">
+        <img height = "30%" width="30%" alt="osTicket Congratulations" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/74a65ea9-83f4-4d3e-8b4a-fb218a79bf17">
 
  <br />
  
 - Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 - Login with your Admin users information
 
-<img height = "30%" width="30%" alt="Login at local host success" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/75f9b60c-5d7e-4f69-bdd9-26ef54d9f43d">
+    <img height = "30%" width="30%" alt="Login at local host success" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/75f9b60c-5d7e-4f69-bdd9-26ef54d9f43d">
 
 <br />
 
@@ -284,16 +284,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Delete: C:\inetpub\wwwroot\osTicket\setup
 
-  <img height = "30%" width="30%" alt="Delete set up clean up" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/149290e6-f32d-4f0e-9062-b5c83be3670e">
+    <img height = "30%" width="30%" alt="Delete set up clean up" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/149290e6-f32d-4f0e-9062-b5c83be3670e">
 
   <br />
   
 - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-<img wheight = "30%" width="30%" alt="Permissions os-config read only" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9d74bfcb-4907-4a1d-be4e-8e574aa2d538">
+    <img wheight = "30%" width="30%" alt="Permissions os-config read only" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9d74bfcb-4907-4a1d-be4e-8e574aa2d538">
 
 <br />
 
-<h4>Congratulations you have successfully installed osTicket in your Virtual Machine, Continue to the [osTicket: Post-Installation Configuration Tutorial](https://github.com/s-evelyn/osTicket-PostInstallConfig) </h4>
+Congratulations you have successfully installed osTicket on your Virtual Machine, Continue to the [osTicket: Post-Installation Configuration Tutorial](https://github.com/s-evelyn/osTicket-PostInstallConfig) 
 
 
