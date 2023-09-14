@@ -164,10 +164,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Install and Download osTicket  v1.15.8
 - Extract and copy “upload” folder to c:\inetpub\wwwroot
-- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
-- Reload osTicket Server in IIS Manager
   
-    <img width="1732" alt="Install osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/c55802f4-8e6c-4727-bd2a-b86525f724fa">
+   <img height = "30%" width="30%" alt="Install osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/5b9baacb-7f5e-4f1e-b5cb-474bcaca8d25">
+   
+- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+  
+    <img height = "30%" width="30%" alt="install osTicket2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9674e681-24e8-47fe-be94-af9221b626e7">
+    
+- Reload osTicket Server in IIS Manager
+
+    <img height = "30%" width="30%" alt="refresh osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/d472c6f5-2e7b-4175-93fd-327837433023">
 
 
 
@@ -178,18 +184,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3> 7. Navigate to osTicket Browser and enable necessary extensions </h3>
 
 - In IIS Manager navigate Sites -> Default Website -> Click on “Browse *:80”.
-
-    <img width="481" alt="osticket browser 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/b3e6113c-1613-4252-8524-cc041ee3d4d7">
-    
+  
+    <img height = "30%" width="30%" alt="osTicket Browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/82f2f6f1-f8bf-4c97-b28b-a09a6ff0f6cc">
+       
 - Note that not all the extensions are activated.
     
-    <img width="529" alt="osTicket Browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/82f2f6f1-f8bf-4c97-b28b-a09a6ff0f6cc">
+    <img height = "30%" width="30%" alt="osticket browser 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/b3e6113c-1613-4252-8524-cc041ee3d4d7">
     
 
 
 - Go back to IIS, sites -> Default -> osTicket
   
-    <img width="513" alt="Extension enable 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/413fae07-de4d-46c5-bc2c-6e9e0a0459d1">
+    <img height = "30%" width="30%" alt="Extension enable 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/413fae07-de4d-46c5-bc2c-6e9e0a0459d1">
     
 - Double-click PHP Manager
     - Enable the following extensions:
@@ -197,19 +203,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - php_intl.dll
     - php_opcache.dll
       
-        <img width="579" alt="extension enable 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e67db73e-7ed6-420e-b8a6-4d9f3e908cf0">
+        <img height = "30%" width="30%" alt="extension enable 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e67db73e-7ed6-420e-b8a6-4d9f3e908cf0">
         
-        <img width="595" alt="extension enable 3" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/f169414e-4440-491c-b67d-812898602e68">
-- Refresh the osTicket
-  
+        <img height = "30%" width="30%" alt="extension enable 3" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/f169414e-4440-491c-b67d-812898602e68">
+        
+- Refresh the osTicket site in your browser, and observe the changes
 
-
-site in your browse, observe the changes
-
-
-
-
-<img width="500" alt="refresh browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9c79cf7e-2fb6-4368-8000-30a07f2909d4">
+    <img height = "30%" width="30%" alt="refresh browser" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9c79cf7e-2fb6-4368-8000-30a07f2909d4">
 
 <br />
 
@@ -220,16 +220,21 @@ site in your browse, observe the changes
 - Rename ost-config
     - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
     - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+        <img height = "30%" width="30%" alt="rename sample ost-config" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/28a4d3b6-a8bf-47ed-9a3d-34b2d4657837">
+        
 - Assign Permissions to ost-config
-    - Disable inheritance -> Remove All
-    - New Permissions -> Everyone -> All
+    - Right click on ost-config -> Properties -> Security -> Advanced   
+        - Disable inheritance -> Remove All
+          
+          <img height = "30%" width="30%" alt="disable inheritances ost-config" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/68cae2d1-e71e-4336-99d3-da5531f79df5">
+        
+    - Assign new permissions to Everyone
+        - Click Add -> Select Principal
+          -  Type in Everyone -> Select Full Control -> Ok 
 
+              <img height = "30%" width="30%"  alt="Properties" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/b5a3a698-55ae-4a7c-8b00-3d9f19a07adb">
 
- <img width="1082" alt="Disable inheritances" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/2e8c3fcd-36ab-4aa7-a226-a336a41c0676">
-
- <br />
- 
-<img width="270" alt="Properties" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/e8090d74-5182-4599-a14c-4d7b4f21a6cc">
 
  <br />
 
@@ -240,19 +245,21 @@ site in your browse, observe the changes
 - Continue Setting up osTicket in the browser
 - Fill in the Helpdesk username and Admin User information
   
-<img width="692" alt="Basic Info fill in osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/2bf44fa6-2205-412d-adee-96000a42786e">
+<img height = "30%" width="30%" alt="Basic Info fill in osTicket" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/2bf44fa6-2205-412d-adee-96000a42786e">
 
 - Download and Install Heidi SQL
-<img width="899" alt="Heidi SQL Download and Install" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/1c09f2ca-353e-4302-8f43-e6925f40fdd2">
+- Open Heidi SQL
+- Create a New Session, with the user as root, and the password as Password1
 
-<br />
-
-- Create a New Session, with the user as root, and the password as Password 1
+    <img height = "30%" width="30%" alt="new session in heidi sql" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/b2c2b607-813b-4cd2-9adc-dc4388a193f2">
+    
 - Create a new database, called osTicket
-  
-<img width="888" alt="HeidiSQL Database setup" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/d9c75b3c-a6d1-42b3-a5cc-0241e88bb29e">
 
-<br />
+    <img height = "30%" width="30%" alt="create new database" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9353f296-e9ed-45f9-a073-eb918a169688">
+
+    <img height = "30%" width="30%" alt="HeidiSQL Database setup" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/08dc0327-1138-4143-947f-0db397097d74">
+
+
 
 - Toggle back to the osTicket browser and enter the following
     - MySQL Database: osTicket
@@ -260,14 +267,14 @@ site in your browse, observe the changes
     - MySQL Password: Password1
     - Click “Install Now!”
 
-<img width="300" alt="osTicket Congratulations" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/74a65ea9-83f4-4d3e-8b4a-fb218a79bf17">
+<img height = "30%" width="30%" alt="osTicket Congratulations" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/74a65ea9-83f4-4d3e-8b4a-fb218a79bf17">
 
  <br />
  
 - Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 - Login with your Admin users information
 
-<img width="500" alt="Login at local host success" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/75f9b60c-5d7e-4f69-bdd9-26ef54d9f43d">
+<img height = "30%" width="30%" alt="Login at local host success" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/75f9b60c-5d7e-4f69-bdd9-26ef54d9f43d">
 
 <br />
 
@@ -277,16 +284,16 @@ site in your browse, observe the changes
 
 - Delete: C:\inetpub\wwwroot\osTicket\setup
 
-  <img width="597" alt="Delete set up clean up" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/149290e6-f32d-4f0e-9062-b5c83be3670e">
+  <img height = "30%" width="30%" alt="Delete set up clean up" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/149290e6-f32d-4f0e-9062-b5c83be3670e">
 
   <br />
   
 - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-<img width="272" alt="Permissions os-config read only" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9d74bfcb-4907-4a1d-be4e-8e574aa2d538">
+<img wheight = "30%" width="30%" alt="Permissions os-config read only" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/9d74bfcb-4907-4a1d-be4e-8e574aa2d538">
 
 <br />
 
-<h3>Congratulations you have successfully installed osTicket in your Virtual Machine, Find the link to the Post Intallation Tutorial below </h3>
+<h4>Congratulations you have successfully installed osTicket in your Virtual Machine, Continue to the Post Intallation Tutorial </h4>
 
 
