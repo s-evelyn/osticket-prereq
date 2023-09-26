@@ -95,26 +95,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br />
 
+-------------------------------------------------------------------------------------------------------------------------
+
 <h3> 4. Download and Install Microsoft Visual C++ and MYSQL 5.5.62 </h3>
 
 - Download and Install Microsoft Visual C++ VC_redist.x86.exe.
 - Download and Install MySQL 5.5.62 (mysql-5.5.62-win32.msi).
 - During the setup of MySQL select the following.
-   - Typical Setup 
+   - Typical Setup
+ 
+       <img height = "40%" width="40%" alt="MYSQL Install 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/a550f17a-a0fc-4959-97da-d7afb31cfb6e">
+       
    - Launch MYSQL Instance Configuration Wizard (after install) 
  
-      <img height = "40%" width="40%" alt="MYSQL Install 1" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/a550f17a-a0fc-4959-97da-d7afb31cfb6e">
       <img height = "40%" width="40%" alt="mysql install 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/67706642-0cd2-491b-adb1-54f9f138686f">
 
 
   <br />
   
    - Standard Configuration - >
-   - Install as Window Service
-   - Type in Password1
 
       <img height = "40%" width="40%" alt="MYSQL configuration" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/d1a781df-224c-40a5-ac83-d613974d4897">
+      
+   - Install as Window Service
+
       <img height = "40%" width="40%"  alt="mysql config 2" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/4fb72746-c1d0-4ed5-9462-c074c81b3be8">
+      
+   - Type in Password1
+
       <img height = "40%" width="40%"  alt="mysql config 3" src="https://github.com/s-evelyn/osticket-prereq/assets/53543374/419b492e-f67c-4f44-96af-ad75252222bc">
 
 
